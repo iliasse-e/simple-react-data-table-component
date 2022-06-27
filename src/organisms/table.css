@@ -1,0 +1,8 @@
+.data-table {
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+tr td {
+    text-align: center;
+}

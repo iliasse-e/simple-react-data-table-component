@@ -1,0 +1,38 @@
+{
+  "name": "simple-react-data-table-component",
+  "version": "1.0.0",
+  "description": "Renders a simple data table for React",
+  "main": "./lib/cjs/table-template.js",
+  "module": "./lib/esm/table-template.js",
+  "types": "./lib/esm/table-template.d.ts",
+  "files": [
+    "/lib",
+    "README.md",
+    "/assets"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "data-table"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.7.4"
+  }
+}
